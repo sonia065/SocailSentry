@@ -1,1 +1,33 @@
-
+{
+    "facebook": {
+        "base_url": "https://www.facebook.com",
+        "username_check": "https://www.facebook.com/{username}",
+        "recovery_check": "https://www.facebook.com/login/identify?ctx=recover",
+        "api_endpoint": "https://graph.facebook.com/v19.0",
+        "security_headers_endpoint": "https://www.facebook.com"
+    },
+    "instagram": {
+        "base_url": "https://www.instagram.com",
+        "username_check": "https://www.instagram.com/{username}/",
+        "api_endpoint": "https://graph.instagram.com/v19.0",
+        "security_headers_endpoint": "https://www.instagram.com"
+    },
+    "youtube": {
+        "base_url": "https://www.youtube.com",
+        "username_check": "https://www.youtube.com/@{username}",
+        "api_endpoint": "https://www.googleapis.com/youtube/v3",
+        "security_headers_endpoint": "https://www.youtube.com"
+    },
+    "tiktok": {
+        "base_url": "https://www.tiktok.com",
+        "username_check": "https://www.tiktok.com/@{username}",
+        "api_endpoint": "https://open-api.tiktok.com",
+        "security_headers_endpoint": "https://www.tiktok.com"
+    },
+    "whatsapp": {
+        "base_url": "https://wa.me",
+        "phone_check": "https://wa.me/{phone}",
+        "web_url": "https://web.whatsapp.com",
+        "security_headers_endpoint": "https://web.whatsapp.com"
+    }
+}
